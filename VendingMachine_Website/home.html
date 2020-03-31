@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Jose's Vending Machine</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="CSS/home.css">
+
+  </head>
+  <body>
+  <div class="container">
+	<h1 class="vending">Vending Machine</h1>
+	<div class="row">
+		<div class="col-8 frontEnd">
+			<div class="items row">
+			
+			</div>
+		</div>
+		<div class="backEnd col-4"> <!--Back-end Stuff -->
+			<form class="money">
+				<h3 class="title">Total $ In</h3>
+				<div class="row justify-content-center">
+					<input type="number" class="amountEntered" value=0.00 readonly>
+				</div>
+				<div class="row justify-content-center">
+					<button type="button" class="moneyButton col-4" id="dollar" value="1">Add Dollar</button>
+					<button type="button" class="moneyButton col-4" id="quarter" value="0.25">Add Quarter</button>
+				</div>
+				<div class="row justify-content-center">
+					<button type="button" class="moneyButton col-4" id="dime" value="0.10">Add Dime</button>
+					<button type="button" class="moneyButton col-4" id="nickel" value="0.05">Add Nickel</button>
+				</div>
+			</form>
+			<form class="purchase">
+				<h3 class="title">Messages</h3>
+				<div class="form-group row justify-content-center">
+					<input class="col-9" id="message" type="text" readonly>
+					<div class="row justify-content-center">
+						<label for="item" class="title">Item:</label>
+						<input class="col-4" id="item" type="number" readonly>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<button type="button" class="col-5" id="purchase">Make Purchase</button>
+				</div>
+			</form>
+			<form class="change">
+				<h3 class="title">Change</h3>
+				<div class="row justify-content-center">
+					<input id="changeBox" type="text" class="col-8" readonly>
+				</div>
+				<div class="row justify-content-center">
+					<button type="button" class="col-5" id="change">Change Return</button>
+				</div>
+			</form>
+			<div id="box"><h5 id="thanks">Come Again!</h5></div>
+		</div>
+	</div>
+  </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="JS/home.js"></script>
+  </body>
+</html>

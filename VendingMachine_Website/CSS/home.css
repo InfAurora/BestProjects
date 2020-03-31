@@ -1,0 +1,103 @@
+body {
+	background-color: #00FFC5;
+}
+
+h1 {
+	border-bottom: solid;
+	padding-bottom: 10px;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+
+.frontEnd {
+	background-color: #C1292E;
+	border: solid;
+	border-radius: 10px 0px 0px 10px;
+}
+.backEnd {
+	background-color: #564787;
+	border: solid;
+	border-radius: 0px 10px 10px 0px;
+}
+form {
+	margin-top: 10px;
+	border-bottom: solid;
+}
+
+#box {
+	border: solid;
+	border-radius: 10px;
+	border-color: gray;
+	width: 150px;
+	height: 80px;
+	margin: auto;
+	margin-top: 30px;
+	background-color: black;
+}
+
+#thanks {
+	margin-top: 21px;
+	color: white;
+	text-align: center;
+}
+
+.title {
+	color: #ADF5FF;
+}
+
+.vending {
+	text-align : center;
+}
+
+.item {
+	border: solid;
+	margin: 10px 31px;
+	background-color: #ADF5FF;
+}
+
+.itemIds {
+	text-align: left;
+}
+
+.moneyButton {
+	margin-right: 10px;
+	margin-bottom: 15px;
+	border: solid;
+}
+
+.itemStuff {
+	text-align: center;
+}
+
+.title {
+	text-align: center;
+}
+
+.amountEntered, #message {
+	margin-bottom: 10px;
+	text-align: center;
+	border: solid;
+}
+
+#purchase {
+	border: solid;
+	margin-bottom: 15px;
+}
+
+#change {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	border: solid;
+}
+
+#changeBox {
+	text-align: center;
+	border: solid;
+}
+
+#item {
+	margin-bottom: -5px;
+	margin-left: 10px;
+	text-align: center;
+	border: solid;
+}
