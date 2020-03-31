@@ -1,0 +1,3 @@
+com\sg\guessnumber\dao\RoundDaoDBTest.class
+com\sg\guessnumber\service\GuessNumberServiceTest.class
+com\sg\guessnumber\dao\GameDaoDBTest.class
